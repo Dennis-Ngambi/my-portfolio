@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #333333;
+			padding: 10px;
+			color: #ffffff;
+			text-align: center;
+		}
+
+		nav {
+			background-color: #0e6be4;
+			overflow: auto;
+			display: flex;
+			justify-content: space-around;
+			padding: 10px;
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				li {
+					display: inline-block;
+					margin: 0 10px;
+					a {
+						color: #ffffff;
+						text-decoration: none;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+        li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #e4e3e7;
+}
+
+		section {
+			background-image: url('image.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: 500px;
+			position: relative;
+			h1 {
+				color: #ffffff;
+				text-align: center;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+
+		footer {
+			background-color: #333333;
+			padding: 10px;
+			color: #ffffff;
+			text-align: center;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+	<img src="My pic.jpg" width="200" height="200" />
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h1>DENNIS NG'AMBI</h1>
+        <h2>BIO</h2>
+        <p>I am Dennis Ng'ambi a 23-year-old with a passion for network and system administration.
+            I have gained valuable experiences in the field of network and systems administration and i am currently pursuing my bachelor's degree at Mzuzu University. 
+            With a goal of becoming a full-stack web and systems developer, I am dedicated to develop my skills and knowledge towards that goal. 
+            And i have a passion and commitment to learn and grow make myself a valuable asset to any team that imight be given an oportunity to work with. </p>
+	</section>
+	<footer>
+		<p>&copy; 2021 My Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
