@@ -1,0 +1,95 @@
+
+ul {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+} /* Page */
+
+li {
+    display: inline;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #353535;
+    padding: 1em 2em;
+    } /*nav text color & style*/
+
+li a{
+    
+    background: #b40707;
+    color: #f5efef;
+    padding: 1em, 2em;
+    font-weight: bold; 
+} /* Navigation color */
+
+a:hover{ 
+    background-color:rgb(14, 236, 132);
+
+} /* Hover Color */
+footer {
+margin-top: auto;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+background-color: #666565; /* Optional: Set a background color for the footer */
+padding: 2px;
+text-align: center;
+}
+.footer-bottom{
+width: 100vw;
+padding: 0px 0;
+text-align: center;
+}
+body{
+	padding: 0px;
+	margin: 0px ;
+	background-image:url(car10.jpg) ;
+	background-size: cover;
+}
+
+fieldset{
+	background-color: #bd0505;
+	width: 20%;
+	height: 850px;
+	word-spacing: 2px;
+	font-size: 100%;
+	color: rgb(241, 239, 239);
+	padding:7px;
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+
+}
+#slideshow{
+	position: relative;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	height: 500px;
+	width: 700px;
+}
+#slide{
+	top: 0;
+	position: absolute;
+	width: 3500px;
+	animation-name: move;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	float: left;
+	height: 450px;
+}
+#class img{
+	float: left;
+	width: 700px;
+}
+@keyframes move{
+	0%{        left:0px; }
+	20%{       left:-700px;}
+	40%{       left:-1400px;}
+	60%{       left:-2100px;}             
+	80%{       left:-1400px;}
+	100%{      left:0px}
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ONLINE SHOP ADVERT</title>
+</head>
+<body>
+<h1>DNG GADGETS PLUG</h1>
+<h2>PRODUCTS WE OFFER</h2>
+<li>Branded Phones</li>
+<li>Laptops</li>
+<li>Airpods</li>
+<li>Head Phones</li>
+<li>Laptop & Phone Chargers</li>
+<h3>GADGET SAMPLES</h3>
+<img src="pic 2.png" alt="laptop"> <img src="laptop.jpeg" alt="laptop"> 
+<h4>PROBLEM WORTH SOLVING</h4>
+<p>Ensuring that the mass has acces to unique and durable Gadgets at an affordacble price.</p>
+<h5>SALES CHANNELS</h5>
+<li>Whatsapp: +26588827425</li>
+<li>Facebook: DNG Gadget Plug</li>
+<li> <a href="https://www.dnggadgets.com"><rect>website</a> </li>
+<p>Where we are Located: Mzuzu township</p>
+<h6>Contact Details:</h6>
+<li>+265888827425</li>
+<li>+265997175964</li>
+<li>ngambidennis99@gmail.com</li>
+<body style="background-color:powderblue;">
+
+</body>
+</html>
